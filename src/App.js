@@ -1,5 +1,5 @@
 function App() {
-    const name = 'React';
+    const name = 'Rect';
     return <div>{name === 'React' ? <h1>React 입니다.</h1> : <h2>React 아닙니다.</h2>}</div>;
 }
 
