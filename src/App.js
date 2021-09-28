@@ -1,10 +1,6 @@
 function App() {
-    return (
-        <div>
-            <h1>리액트야 안녕!</h1>
-            <h2>잘 작동하니?</h2>
-        </div>
-    );
+    const name = 'React';
+    return <div>{name === 'React' ? <h1>React 입니다.</h1> : <h2>React 아닙니다.</h2>}</div>;
 }
 
 export default App;
